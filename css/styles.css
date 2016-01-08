@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #EEEEEE;
+  background-image: url("/material.png");
+}
+
+h1 {
+  margin: 10px 0 10px 0;
+  font-size: 60px;
+}
+
+h2 {
+  margin: 10px 0 10px 0;
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+p {
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+a {
+  color: #8BC34A;
+  text-decoration: none;
+}
+
+.container {
+  max-width:1000px;
+  margin:auto;
+}
+
+.header {
+  color: #424242;
+  background: #FFFFFF;
+  display: block;
+  position: relative;
+  padding: 0 60px;
+  height: 60px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.header a {
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.headertext {
+  padding: 0 16px;
+  float: right;
+}
+
+.about {
+  color: #424242;
+  background: #FFFFFF;
+  border-radius: 2px;
+  display: block;
+  margin: 25px 25px 0 25px;
+  position: relative;
+  max-width: 1000px;
+  padding: 20px;
+  overflow:hidden;
+}
+
+.mflogo {
+  background-color: #FFFFFF;
+  height: 70px;
+  float:left;
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.mflogo img {
+  height: 100%;
+}
+
+.app {
+  color: #424242;
+  background: #FFFFFF;
+  border-radius: 2px;
+  display: block;
+  margin: 25px 25px 25px 25px;
+  position: relative;
+  max-width: 1000px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.card {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+@media screen and (max-width: 1080px) {
+  .header {
+    padding: 0 25px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .headertext {
+    display: none;
+  }
+}
