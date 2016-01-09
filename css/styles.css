@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: 'Roboto', sans-serif;
   background-color: #EEEEEE;
-  background-image: url("/images/material.png");
+  background-image: url("images/material.png");
 }
 
 h1 {
