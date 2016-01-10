@@ -2,19 +2,16 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: #EEEEEE;
+  background-color: #E91E63;
   background-image: url("/images/material.png");
 }
 
-h1 {
-  margin: 10px 0 10px 0;
-  font-size: 60px;
-}
-
-h2 {
-  margin: 10px 0 10px 0;
-  padding-left: 10px;
-  font-size: 30px;
+h1, h2, h3 {
+  display: inline;
+  font-size: inherit;
+  margin: 0;
+  padding: 0;
+  font-weight: inherit;
 }
 
 p {
@@ -28,8 +25,8 @@ a {
 }
 
 .container {
-  max-width:1000px;
-  margin:auto;
+  max-width: 900px;
+  margin: auto;
 }
 
 .header {
@@ -51,17 +48,7 @@ a {
   float: right;
 }
 
-.about {
-  color: #424242;
-  background: #FFFFFF;
-  border-radius: 2px;
-  margin: 25px 25px 0 25px;
-  max-width: 900px;
-  padding: 20px;
-  overflow:hidden;
-}
-
-.mflogo {
+.headerlogo {
   background-color: #FFFFFF;
   height: 70px;
   float:left;
@@ -71,21 +58,17 @@ a {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-.mflogo img {
+.headerlogo img {
   height: 100%;
 }
 
-.app {
+.card {
   color: #424242;
   background: #FFFFFF;
   border-radius: 2px;
   margin: 25px 25px 25px 25px;
   max-width: 900px;
-  padding: 20px;
   overflow: hidden;
-}
-
-.card {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.2s ease-in-out;
 }
@@ -93,6 +76,42 @@ a {
 .card:hover {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
+
+.cardtitle {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 24px 16px 8px 16px;
+}
+
+.cardsubtitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 16px 16px 16px;
+}
+
+.cardtext {
+  font-size: 16px;
+  margin: 16px 16px 16px 16px;
+}
+
+.cardactions {
+  display: inline-block;
+  border-radius: 2px;
+  margin: 8px 16px 16px 16px;
+  height: 36px;
+  font-size: 14px;
+  background-color: #8BC34A;
+}
+
+.cardactions a {
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 0 16px 0 16px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 
 @media screen and (max-width: 1080px) {
   .header {
