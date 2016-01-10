@@ -103,6 +103,10 @@ a {
   background-color: #8BC34A;
 }
 
+.cardactions:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
 .cardactions a {
   display: inline-block;
   color: #FFFFFF;
@@ -111,7 +115,6 @@ a {
   text-transform: uppercase;
   text-decoration: none;
 }
-
 
 @media screen and (max-width: 1080px) {
   .header {
